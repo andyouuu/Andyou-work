@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ANDYOU — веб-разработчик. Лендинги, CRM, интернет-магазины и Telegram-боты для бизнеса.">
+  <title>ANDYOU — веб-разработчик</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержимому</a>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo" aria-label="На главную">А.</a>
+      <nav class="nav" aria-label="Основная навигация">
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+        </button>
+        <ul class="nav__list" id="nav-menu">
+          <li><a href="#projects" class="nav__link">Проекты</a></li>
+          <li><a href="#skills" class="nav__link">Навыки</a></li>
+          <li><a href="#services" class="nav__link">Услуги</a></li>
+          <li><a href="#contact" class="nav__link nav__link--cta">Связаться</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+        <div class="hero__orb hero__orb--3"></div>
+        <div class="hero__grid"></div>
+      </div>
+      <div class="container hero__layout">
+        <div class="hero__content">
+          <p class="hero__brand reveal"><span class="brand" aria-label="ANDYOU"><span class="brand__core">AND</span><span class="brand__accent">YOU</span></span></p>
+          <h1 class="hero__headline reveal" id="hero-title">Веб-разработчик для бизнеса</h1>
+          <p class="hero__lead reveal">
+            Разрабатываю сайты, CRM и Telegram-боты для малого бизнеса — с понятным интерфейсом и интеграцией Google Sheets.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="https://t.me/andyou_work" class="btn btn--primary btn--hero" id="btn-hero-discuss" target="_blank" rel="noopener noreferrer">Обсудить проект</a>
+            <a href="#projects" class="btn btn--ghost">Смотреть кейсы</a>
+          </div>
+          <p class="hero__note reveal">Отвечаю в тот же день · Работаю с заказчиками напрямую</p>
+        </div>
+
+        <div class="hero__visual reveal" aria-hidden="true">
+          <div class="hero-stage">
+            <div class="hero-stage__atmo" aria-hidden="true">
+              <div class="hero-stage__floor"></div>
+            </div>
+
+            <div class="hero-stage__showcase">
+              <p class="hero-stage__caption">
+                <span class="hero-stage__caption-name">Horizon Travel</span>
+                <span class="hero-stage__caption-sep" aria-hidden="true">·</span>
+                <span>тур-сервис с заявками</span>
+              </p>
+
+              <div class="hero-stage__device">
+              <div class="hero-device">
+                <div class="hero-device__lid">
+                  <div class="hero-device__camera" aria-hidden="true"></div>
+                  <div class="hero-device__screen">
+                    <img
+                      class="hero-device__shot"
+                      src="assets/images/projects/horizon-main-thumb.jpg"
+                      alt=""
+                      width="1400"
+                      height="788"
+                      loading="eager"
+                      decoding="async"
+                    >
+                  </div>
+                </div>
+                <div class="hero-device__base">
+                  <div class="hero-device__notch" aria-hidden="true"></div>
+                </div>
+              </div>
+              </div>
+
+            <div class="hero-stage__dock">
+              <div class="hero-dock__metric">
+                <span class="hero-dock__val">4+</span>
+                <span class="hero-dock__lbl">проекта для бизнеса</span>
+              </div>
+              <div class="hero-dock__line" aria-hidden="true"></div>
+              <p class="hero-dock__caps">
+                <span>Telegram-боты</span>
+                <span>CRM-системы</span>
+                <span>Google Sheets</span>
+                <span>Автоматизация</span>
+              </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--projects" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <header class="section__header reveal">
+          <span class="section__label">Кейсы</span>
+          <h2 class="section__title" id="projects-title">Проекты</h2>
+          <p class="section__desc">Реальные интерфейсы, которые я разработал для бизнеса. Нажмите на скриншот — откроется в полном размере.</p>
+        </header>
+        <div class="projects__list">
+          <article class="project-card reveal">
+            <div class="project-card__visual">
+              <span class="project-card__badge">01</span>
+              <div class="project-showcase">
+                <div class="project-showcase__main">
+                  <p class="project-showcase__main-label">Сайт · главная страница</p>
+                  <div class="project-card__frame">
+                    <div class="project-card__media">
+                      <img
+                        src="assets/images/projects/horizon-main-thumb.jpg"
+                        data-full="assets/images/projects/horizon-main-full.png"
+                        alt="Главная страница сайта Horizon Travel"
+                        width="1400"
+                        height="788"
+                        loading="lazy"
+                        decoding="async"
+                      >
+                    </div>
+                  </div>
+                </div>
+                <figure class="project-showcase__float project-showcase__float--sheets">
+                  <figcaption class="project-showcase__label">
+                    <svg class="project-showcase__icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2" fill="#34a853"/><path d="M8 8h8M8 12h8M8 16h5" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    <span class="project-showcase__label-text">
+                      <strong>Google Sheets</strong>
+                      <span>Таблица заявок</span>
+                    </span>
+                  </figcaption>
+                  <div class="project-showcase__thumb">
+                    <img
+                      src="assets/images/projects/horizon-sheets-thumb.jpg"
+                      data-full="assets/images/projects/horizon-sheets-full.png"
+                      alt="Таблица заявок Horizon Travel"
+                      width="1200"
+                      height="540"
+                      loading="lazy"
+                      decoding="async"
+                    >
+                  </div>
+                </figure>
+                <figure class="project-showcase__float project-showcase__float--telegram">
+                  <figcaption class="project-showcase__label">
+                    <img src="assets/images/telegram-icon.png" alt="" class="project-showcase__icon project-showcase__icon--brand" width="18" height="18" aria-hidden="true">
+                    <span class="project-showcase__label-text">
+                      <strong>Telegram</strong>
+                      <span>Уведомление о заявке</span>
+                    </span>
+                  </figcaption>
+                  <div class="project-showcase__thumb project-showcase__thumb--square">
+                    <img
+                      src="assets/images/projects/horizon-telegram-thumb.jpg"
+                      data-full="assets/images/projects/horizon-telegram-full.png"
+                      alt="Уведомление Horizon Travel в Telegram"
+                      width="900"
+                      height="900"
+                      loading="lazy"
+                      decoding="async"
+                    >
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Horizon Travel</h3>
+              <p class="project-card__text">Туристический сервис с современным интерфейсом и системой заявок.</p>
+              <div class="project-features">
+                <p class="project-features__title">Что реализовано</p>
+                <ul class="project-features__list">
+                  <li>Адаптивный дизайн</li>
+                  <li>Интеграция Google Sheets</li>
+                  <li>Telegram-уведомления</li>
+                  <li>Работа с данными</li>
+                </ul>
+              </div>
+              <ul class="project-card__tags">
+                <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Google Sheets</li>
+              </ul>
+              <div class="project-card__actions">
+                <a href="https://andyouuu.github.io/Horizon-travel/" class="btn btn--sm btn--primary" data-project="horizon-travel" target="_blank" rel="noopener noreferrer">Открыть проект</a>
+                <a href="https://github.com/andyouuu/Horizon-travel" class="btn btn--sm btn--outline" data-github="horizon-travel" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__visual">
+              <span class="project-card__badge">02</span>
+              <div class="project-showcase">
+                <div class="project-showcase__main">
+                  <p class="project-showcase__main-label">CRM · панель и статистика</p>
+                  <div class="project-card__frame">
+                    <div class="project-card__media">
+                      <img
+                        src="assets/images/projects/crm-main-thumb.jpg"
+                        data-full="assets/images/projects/crm-main-full.png"
+                        alt="Главная страница CRM Request"
+                        width="1400"
+                        height="788"
+                        loading="lazy"
+                        decoding="async"
+                      >
+                    </div>
+                  </div>
+                </div>
+                <figure class="project-showcase__float project-showcase__float--sheets">
+                  <figcaption class="project-showcase__label">
+                    <svg class="project-showcase__icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2" fill="#34a853"/><path d="M8 8h8M8 12h8M8 16h5" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    <span class="project-showcase__label-text">
+                      <strong>Google Sheets</strong>
+                      <span>Таблица заявок</span>
+                    </span>
+                  </figcaption>
+                  <div class="project-showcase__thumb">
+                    <img
+                      src="assets/images/projects/crm-sheets-thumb.jpg"
+                      data-full="assets/images/projects/crm-sheets-full.png"
+                      alt="Таблица заявок CRM Request"
+                      width="1200"
+                      height="540"
+                      loading="lazy"
+                      decoding="async"
+                    >
+                  </div>
+                </figure>
+                <figure class="project-showcase__float project-showcase__float--telegram">
+                  <figcaption class="project-showcase__label">
+                    <img src="assets/images/telegram-icon.png" alt="" class="project-showcase__icon project-showcase__icon--brand" width="18" height="18" aria-hidden="true">
+                    <span class="project-showcase__label-text">
+                      <strong>Telegram</strong>
+                      <span>Уведомление о заявке</span>
+                    </span>
+                  </figcaption>
+                  <div class="project-showcase__thumb project-showcase__thumb--square">
+                    <img
+                      src="assets/images/projects/crm-telegram-thumb.jpg"
+                      data-full="assets/images/projects/crm-telegram-full.png"
+                      alt="Уведомление CRM Request в Telegram"
+                      width="900"
+                      height="900"
+                      loading="lazy"
+                      decoding="async"
+                    >
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">CRM Request</h3>
+              <p class="project-card__text">CRM-система для учёта клиентских заявок с поиском, статистикой и уведомлениями.</p>
+              <div class="project-features">
+                <p class="project-features__title">Что реализовано</p>
+                <ul class="project-features__list">
+                  <li>Адаптивный дизайн</li>
+                  <li>Интеграция Google Sheets</li>
+                  <li>Telegram-уведомления</li>
+                  <li>Поиск и фильтрация</li>
+                  <li>Работа с данными</li>
+                </ul>
+              </div>
+              <ul class="project-card__tags">
+                <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Google Sheets</li><li>Telegram</li>
+              </ul>
+              <div class="project-card__actions">
+                <a href="https://andyouuu.github.io/CRM-REQUEST/" class="btn btn--sm btn--primary" data-project="crm-requests" target="_blank" rel="noopener noreferrer">Открыть проект</a>
+                <a href="https://github.com/andyouuu/CRM-REQUEST" class="btn btn--sm btn--outline" data-github="crm-requests" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__visual">
+              <span class="project-card__badge">03</span>
+              <div class="project-showcase">
+                <div class="project-showcase__main">
+                  <p class="project-showcase__main-label">Магазин · главная страница</p>
+                  <div class="project-card__frame">
+                    <div class="project-card__media">
+                      <img
+                        src="assets/images/projects/techstore-main-thumb.jpg"
+                        data-full="assets/images/projects/techstore-main-full.png"
+                        alt="Главная страница интернет-магазина TechStore"
+                        width="1400"
+                        height="788"
+                        loading="lazy"
+                        decoding="async"
+                      >
+                    </div>
+                  </div>
+                </div>
+                <figure class="project-showcase__float project-showcase__float--sheets">
+                  <figcaption class="project-showcase__label">
+                    <svg class="project-showcase__icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2" fill="#34a853"/><path d="M8 8h8M8 12h8M8 16h5" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    <span class="project-showcase__label-text">
+                      <strong>Google Sheets</strong>
+                      <span>Таблица заявок</span>
+                    </span>
+                  </figcaption>
+                  <div class="project-showcase__thumb">
+                    <img
+                      src="assets/images/projects/techstore-sheets-thumb.jpg"
+                      data-full="assets/images/projects/techstore-sheets-full.png"
+                      alt="Таблица заказов TechStore"
+                      width="1200"
+                      height="540"
+                      loading="lazy"
+                      decoding="async"
+                    >
+                  </div>
+                </figure>
+                <figure class="project-showcase__float project-showcase__float--telegram">
+                  <figcaption class="project-showcase__label">
+                    <img src="assets/images/telegram-icon.png" alt="" class="project-showcase__icon project-showcase__icon--brand" width="18" height="18" aria-hidden="true">
+                    <span class="project-showcase__label-text">
+                      <strong>Telegram</strong>
+                      <span>Уведомление о заявке</span>
+                    </span>
+                  </figcaption>
+                  <div class="project-showcase__thumb project-showcase__thumb--square">
+                    <img
+                      src="assets/images/projects/techstore-telegram-thumb.jpg"
+                      data-full="assets/images/projects/techstore-telegram-full.png"
+                      alt="Уведомление TechStore в Telegram"
+                      width="900"
+                      height="900"
+                      loading="lazy"
+                      decoding="async"
+                    >
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">TechStore</h3>
+              <p class="project-card__text">Интернет-магазин электроники с корзиной, каталогом товаров, фильтрами и административной панелью.</p>
+              <div class="project-features">
+                <p class="project-features__title">Что реализовано</p>
+                <ul class="project-features__list">
+                  <li>Адаптивный дизайн</li>
+                  <li>Корзина</li>
+                  <li>Фильтры каталога</li>
+                  <li>Интеграция Google Sheets</li>
+                  <li>Telegram-уведомления</li>
+                </ul>
+              </div>
+              <ul class="project-card__tags">
+                <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Google Sheets</li><li>Google Apps Script</li>
+              </ul>
+              <div class="project-card__actions">
+                <a href="https://andyouuu.github.io/TechStore/" class="btn btn--sm btn--primary" data-project="tech-electronics-store" target="_blank" rel="noopener noreferrer">Открыть проект</a>
+                <a href="https://github.com/andyouuu/TechStore" class="btn btn--sm btn--outline" data-github="tech-electronics-store" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__visual project-card__visual--bot">
+              <span class="project-card__badge">04</span>
+              <div class="project-showcase project-showcase--bot">
+                <div class="project-showcase__main">
+                  <p class="project-showcase__main-label">Telegram · сценарий записи</p>
+                  <div class="project-card__frame">
+                    <div class="project-card__media">
+                      <img
+                        src="assets/images/projects/autoservice-telegram-thumb.jpg"
+                        data-full="assets/images/projects/autoservice-telegram-full.png"
+                        alt="Запись клиента в автосервис через Telegram-бота"
+                        width="900"
+                        height="900"
+                        loading="lazy"
+                        decoding="async"
+                      >
+                    </div>
+                  </div>
+                </div>
+                <figure class="project-showcase__float project-showcase__float--sheets">
+                  <figcaption class="project-showcase__label">
+                    <svg class="project-showcase__icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2" fill="#34a853"/><path d="M8 8h8M8 12h8M8 16h5" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    <span class="project-showcase__label-text">
+                      <strong>Google Sheets</strong>
+                      <span>Сохранение заявок</span>
+                    </span>
+                  </figcaption>
+                  <div class="project-showcase__thumb">
+                    <img
+                      src="assets/images/projects/autoservice-sheets-thumb.jpg"
+                      data-full="assets/images/projects/autoservice-sheets-full.png"
+                      alt="Заявки автосервиса в Google Sheets"
+                      width="1200"
+                      height="130"
+                      loading="lazy"
+                      decoding="async"
+                    >
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">AutoService Bot</h3>
+              <p class="project-card__text">Telegram-бот для записи клиентов автосервиса с сохранением заявок в Google Sheets.</p>
+              <div class="project-features">
+                <p class="project-features__title">Что реализовано</p>
+                <ul class="project-features__list">
+                  <li>Работа с API</li>
+                  <li>Интеграция Google Sheets</li>
+                  <li>Telegram-бот</li>
+                  <li>Работа с данными</li>
+                </ul>
+              </div>
+              <ul class="project-card__tags">
+                <li>Node.js</li><li>Telegram Bot API</li><li>Google Apps Script</li>
+              </ul>
+              <div class="project-card__actions">
+                <a href="https://t.me/autoservicereq_bot" class="btn btn--sm btn--primary" data-project="autoservice-telegram-bot" target="_blank" rel="noopener noreferrer">Открыть бота</a>
+                <a href="https://github.com/andyouuu/autoservice-telegram-bot" class="btn btn--sm btn--outline" data-github="autoservice-telegram-bot" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <header class="section__header reveal">
+          <span class="section__label">Стек</span>
+          <h2 class="section__title" id="skills-title">Навыки</h2>
+        </header>
+        <div class="skills-groups">
+          <div class="skills-group reveal">
+            <h3 class="skills-group__title">Frontend</h3>
+            <ul class="skills-group__list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <div class="skills-group reveal">
+            <h3 class="skills-group__title">Backend</h3>
+            <ul class="skills-group__list">
+              <li>Node.js</li>
+            </ul>
+          </div>
+          <div class="skills-group reveal">
+            <h3 class="skills-group__title">Интеграции</h3>
+            <ul class="skills-group__list">
+              <li>Google Sheets</li>
+              <li>Google Apps Script</li>
+              <li>REST API</li>
+              <li>Telegram Bot API</li>
+            </ul>
+          </div>
+          <div class="skills-group reveal">
+            <h3 class="skills-group__title">Инструменты</h3>
+            <ul class="skills-group__list">
+              <li>Git</li>
+              <li>GitHub Pages</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stats" id="stats" aria-labelledby="stats-title">
+      <div class="container stats__wrap">
+        <h2 class="visually-hidden" id="stats-title">Статистика</h2>
+        <ul class="stats__grid">
+          <li class="stat-card reveal">
+            <span class="stat-card__value" data-count="4" data-suffix="+">0</span>
+            <span class="stat-card__label">Завершённых проектов</span>
+          </li>
+          <li class="stat-card reveal">
+            <span class="stat-card__value" data-count="3" data-suffix="+">0</span>
+            <span class="stat-card__label">Веб-приложений</span>
+          </li>
+          <li class="stat-card reveal">
+            <span class="stat-card__value" data-count="1" data-suffix="+">0</span>
+            <span class="stat-card__label">Telegram-ботов</span>
+          </li>
+          <li class="stat-card reveal">
+            <span class="stat-card__value" data-count="100" data-suffix="%">0</span>
+            <span class="stat-card__label">Адаптивный дизайн</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section__header reveal">
+          <span class="section__label">Услуги</span>
+          <h2 class="section__title" id="services-title">Чем могу помочь бизнесу</h2>
+          <p class="section__desc">Выберите направление — обсудим задачу и соберём решение под ваш процесс.</p>
+        </header>
+        <div class="offers">
+          <article class="offer-card reveal">
+            <span class="offer-card__icon" aria-hidden="true">🚀</span>
+            <h3 class="offer-card__title">Telegram-боты</h3>
+            <ul class="offer-card__list">
+              <li>автоматизация заявок</li>
+              <li>уведомления</li>
+              <li>интеграции</li>
+            </ul>
+          </article>
+          <article class="offer-card reveal">
+            <span class="offer-card__icon" aria-hidden="true">🛒</span>
+            <h3 class="offer-card__title">Интернет-магазины</h3>
+            <ul class="offer-card__list">
+              <li>каталог товаров</li>
+              <li>корзина</li>
+              <li>административная панель</li>
+            </ul>
+          </article>
+          <article class="offer-card reveal">
+            <span class="offer-card__icon" aria-hidden="true">📊</span>
+            <h3 class="offer-card__title">CRM и учёт заявок</h3>
+            <ul class="offer-card__list">
+              <li>статусы</li>
+              <li>поиск</li>
+              <li>аналитика</li>
+            </ul>
+          </article>
+          <article class="offer-card reveal">
+            <span class="offer-card__icon" aria-hidden="true">⚙️</span>
+            <h3 class="offer-card__title">Автоматизация бизнеса</h3>
+            <ul class="offer-card__list">
+              <li>Google Sheets</li>
+              <li>Apps Script</li>
+              <li>интеграции сервисов</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <header class="section__header section__header--center reveal">
+          <span class="section__label">Контакты</span>
+          <h2 class="section__title" id="contact-title">Давайте обсудим ваш проект</h2>
+          <p class="section__desc">Отвечу в тот же день. Расскажите о задаче — предложу решение и сроки.</p>
+        </header>
+        <ul class="contact-trust reveal">
+          <li>Отвечаю обычно в течение нескольких часов</li>
+          <li>Работаю напрямую без посредников</li>
+          <li>Первая консультация бесплатно</li>
+        </ul>
+        <ul class="contact__links reveal">
+          <li>
+            <a href="https://t.me/andyou_work" class="contact-link contact-link--telegram" target="_blank" rel="noopener noreferrer" id="link-telegram">
+              <span class="contact-link__icon contact-link__icon--telegram" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.417 15.181l-.397 5.584c.568 0 .815-.244 1.109-.537l2.663-2.545 5.518 4.041c1.012.564 1.725.267 1.998-.931l3.605-16.933.001-.001c.321-1.496-.541-2.081-1.527-1.723L2.29 9.28c-1.453.564-1.43 1.374-.247 1.741l5.763 1.798L18.26 6.57c.6-.394 1.146-.176.697.227L9.417 15.18z" fill="currentColor"/>
+                </svg>
+              </span>
+              <span class="contact-link__text">
+                <span class="contact-link__label">Telegram</span>
+                <span class="contact-link__hint">@andyou_work</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/andyouuu" class="contact-link contact-link--github" target="_blank" rel="noopener noreferrer" id="link-github">
+              <span class="contact-link__icon contact-link__icon--github" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z" fill="currentColor"/>
+                </svg>
+              </span>
+              <span class="contact-link__text">
+                <span class="contact-link__label">GitHub</span>
+                <span class="contact-link__hint">github.com/andyouuu</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:andyouworkk@gmail.com" class="contact-link contact-link--email" id="link-email">
+              <span class="contact-link__icon contact-link__icon--email" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 6h16a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V8a2 2 0 012-2z" stroke="currentColor" stroke-width="1.6"/>
+                  <path d="M4 8l8 5 8-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span class="contact-link__text">
+                <span class="contact-link__label">Email</span>
+                <span class="contact-link__hint">andyouworkk@gmail.com</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+        <div class="contact__cta reveal">
+          <a href="https://t.me/andyou_work" class="btn btn--primary btn--lg" id="btn-discuss" target="_blank" rel="noopener noreferrer">Обсудить проект</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">© 2026 <span class="brand brand--sm"><span class="brand__core">AND</span><span class="brand__accent">YOU</span></span></p>
+      <p class="footer__note">Веб-разработка для бизнеса</p>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <div class="lightbox__backdrop" data-lightbox-close tabindex="-1"></div>
+    <div class="lightbox__panel" role="dialog" aria-modal="true" aria-labelledby="lightbox-caption">
+      <figure class="lightbox__figure">
+        <button type="button" class="lightbox__close" data-lightbox-close aria-label="Закрыть просмотр">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+        <div class="lightbox__loader" aria-hidden="true"></div>
+        <img class="lightbox__img" src="" alt="">
+        <figcaption id="lightbox-caption" class="lightbox__caption"></figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
